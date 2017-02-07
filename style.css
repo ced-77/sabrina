@@ -1,0 +1,189 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Pacifico|Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+
+
+/*
+	configuration generale
+
+ */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	/*font-family: 'Montserrat', sans-serif;*/
+	/*font-family: 'Pacifico', cursive;*/
+	/*font-family: 'Satisfy', cursive;*/
+	font-family: 'Roboto', sans-serif;
+	font-size: 2rem;
+	background-color: #6ea5d1;
+}
+
+header {
+	background-image: url("ciel_nuage_1.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	background-position: center -10.5rem;
+}
+
+header section {
+	margin: 8rem 0;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+
+img, .titre {
+	display: inline-block;
+}
+
+img {
+
+	background-color: white;
+	
+	width: 20rem;
+	height: 20rem;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+}
+
+
+
+h1, h2 {
+	text-align: center;
+}
+
+h1 {
+	font-size: 9rem;
+	font-weight: normal;
+	font-style:italic;
+}
+
+
+h2 {
+	font-size: 6rem;
+	margin-top: 2rem;
+	margin-bottom: 3rem;
+	font-weight: normal;
+	color: black;
+}
+
+
+
+nav	{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	/*background-image: url('cordontel.jpg');*/
+	background-color: black;
+	text-align: center;
+
+
+}
+
+ul, li {
+	display: inline-block;
+}
+
+li {
+	list-style: none;
+	padding: .5rem;
+}
+
+a {
+	text-decoration: none;
+	padding: .5rem 1rem;
+	color:white;
+}
+ a:hover {
+ 	color: skyblue;
+ 	font-weight: bolder;
+ }
+
+ article {
+ 	padding-bottom: 2rem;
+ }
+
+ p {
+	font-family: 'Roboto', sans-serif; 	
+ }
+
+
+/* fin config generale */
+
+
+/*
+	Config du main
+
+ */
+
+main section {
+	width: 100%;
+	padding-top: 2rem;
+}
+
+
+
+main section article h2 {
+	font-size: 2.5rem;
+}
+
+main section article h3 {
+	font-size: 2rem;
+	font-weight: normal;
+}
+
+
+#presentation {
+	background-attachment: fixed;
+	font-family: 'Pacifico', cursive;
+	/*text-align: right;*/
+	font-size: 2.5rem;
+	margin-left: 3rem;	
+	color: black;
+
+
+}
+
+
+
+#designation {
+	color: white;
+	font-weight: normal;
+	font-size: 3rem;
+}
+
+#horaires {
+	background-image: url('heure.jpg');
+
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	background-position: center;
+	
+	color: white;
+}
+
+#horaires article {
+	display: inline-block;
+	margin: auto;
+
+}
+
+#horaires h2 {
+	color: white;
+}
+
+#consultation {
+	margin: auto;
+	text-align: center;
+}
